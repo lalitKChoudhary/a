@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bedb28f9b6.js" crossorigin="anonymous"></script>
+
+    <title>Welcome to our Carwash </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Carwash site.html">Carwash site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="/Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/booking.html">Booking</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/profile.html">Profile</a>
+                    </li>
+
+                </ul>
+                
+            
+            </div>
+        </div>
+    </nav>
+
+   
+
+
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+       
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Car Wash - GIF.gif" height="770px" width="750px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to Carwash</h5>
+                    <p>Facilities like car polishing , exterior & interior cleaning.</p>
+
+                    <button type="button" class="btn btn-danger">Car polishing</button>
+
+                    <button type="button" class="btn btn-primary">Exterior cleaning</button>
+
+                    <button type="button" class="btn btn-success">Interior cleaning</button>
+
+                </div>
+            </div>
+            
+        </div>
+
+
+        
+
+
+    <div class="container my-4">
+        <h1 class="text-center">Welcome to WashMyCar</h1>
+        <p class="text-center">How can we help you?</p>
+    </div>
+
+    <div class="container my-4 ">
+        <div class="card-group">
+            <div class="card my-4  mx-2">
+                <img src="1.1.jpeg" class="card-img-top " width="200" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ROADSIDE ASSISTANCE </h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                            data-bs-target="#ASSISTANCEModal"> ASSISTANCE</button>
+                    </div>
+                    <p class="card-text my-2">Roadside assistance in car insurance acts as a saviour in such times. This
+                        add-on cover
+                        comes to your rescue if your car breaks down and you are stranded. 24x7 roadside assistance
+                        provides you
+                        with services that take care of emergencies ranging from running out of fuel to a mechanical
+                        defect.</p>
+                </div>
+            </div>
+
+            <!-- Assistance Modal -->
+            <div class="modal fade" id="ASSISTANCEModal" tabindex="-1" aria-labelledby="ASSISTANCEModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ASSISTANCEModalLabel">ASSISTANCE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body ">
+                            <div class="d-grid gap-2 my-2 ">
+                               
+                                <input type="text"  name="vname1"  id="vname1" placeholder="Vehicle name"  >
+                            </div>
+                            <div class="d-grid gap-2 my-2">
+                                <input type="text"  name="vnumber1"  id="vnumber1" placeholder="Vehicle number">
+                            </div>
+
+                            <!-- <div class="input-group ">
+                                <button class="btn btn-primary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">Vehicle Type</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Bullet or Sports bike</a></li>
+                                    <li><a class="dropdown-item" href="#">truck ten wheels</a></li>
+                                    <li><a class="dropdown-item" href="#">traveller small</a></li>
+                                    <li><a class="dropdown-item" href="#">truck six wheels</a></li>
+                                    <li><a class="dropdown-item" href="#">bike</a></li>
+                                    <li><a class="dropdown-item" href="#">premium suv or muv</a></li>
+                                    <li><a class="dropdown-item" href="#">pickup small</a></li>
+                                    <li><a class="dropdown-item" href="#">compact suv</a></li>
+                                    <li><a class="dropdown-item" href="#">minibus</a></li>
+                                    <li><a class="dropdown-item" href="#">truck four wheels</a></li>
+                                    <li><a class="dropdown-item" href="#">suv or muv</a></li>
+                                    <li><a class="dropdown-item" href="#">ambulance small</a></li>
+                                    <li><a class="dropdown-item" href="#">tourist bus</a></li>
+                                    <li><a class="dropdown-item" href="#">traveller big</a></li>
+                                </ul>
+                            </div> -->
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Vechile Type</option>
+                                <option value="1">Bullet or Sports bike</option>
+                                <option value="2">truck ten wheels</option>
+                                <option value="3">traveller small</option>
+                                <option value="4">truck six wheels</option>
+                                <option value="5">bike</option>
+                                <option value="6">premium suv or muv</option>
+                                <option value="7">pickup small</option>
+                                <option value="8">compact suv</option>
+                                <option value="9">minibus</option>
+                                <option value="10">truck four wheels</option>
+                                <option value="11">suv or muv</option>
+                                <option value="12">ambulance small</option>
+                                <option value="13">tourist bus</option>
+                                <option value="14">traveller big</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card my-4  mx-2">
+                <img src="2.2.jpeg" class="card-img-top" width="200" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CAR DETALING</h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                            data-bs-target="#DETALINGModal"> DETALING</button>
+                    </div>
+                    <p class="card-text my-2">The Car Detailer will clean vehicles according to company standards or
+                        client
+                        specifications, which may include performing detail inspections, thoroughly.Car detailers clean
+                        automotive
+                        interiors and exteriors. They provide a variety of cleaning services which range from a basic
+                        wash to an
+                        intensive cleaning job.</p>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Detail Modal -->
+        <div class="modal fade" id="DETALINGModal" tabindex="-1" aria-labelledby="DETALINGModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="DETALINGModalLabel">DETALING </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-grid gap-2 my-2">
+                            <input type="text"  name="vname2"  id="vname2" placeholder="Vehicle name"  >
+                        </div>
+                        <div class="d-grid gap-2 my-2">
+                            <input type="text"  name="vnumber2 "  id="vnumber2" placeholder="Vehicle Number"  >
+                        </div>
+
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Vechile Type</option>
+                            <option value="1">Bullet or Sports bike</option>
+                            <option value="2">truck ten wheels</option>
+                            <option value="3">traveller small</option>
+                            <option value="4">truck six wheels</option>
+                            <option value="5">bike</option>
+                            <option value="6">premium suv or muv</option>
+                            <option value="7">pickup small</option>
+                            <option value="8">compact suv</option>
+                            <option value="9">minibus</option>
+                            <option value="10">truck four wheels</option>
+                            <option value="11">suv or muv</option>
+                            <option value="12">ambulance small</option>
+                            <option value="13">tourist bus</option>
+                            <option value="14">traveller big</option>
+                          </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="card-group">
+            <div class="card my-4  mx-2">
+                <img src="3.jpeg" class="card-img-top " width="200" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CAR WASHING </h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                            data-bs-target="#WASHINGModal">WASHING</button>
+                    </div>
+                    <p class="card-text my-2">Focus on the wheels. Use a hose with a nozzle that provides good water
+                        pressure to spray
+                        the wheels of the car.
+                        Prep and lather. Spray the entire vehicle with water to rinse away surface dirt and to give your
+                        vehicle a
+                        good coating of water.
+                        Rinse and dry.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+
+            <!-- Washing Modal -->
+            <div class="modal fade" id="WASHINGModal" tabindex="-1" aria-labelledby="WASHINGModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="WASHINGModalLabel">WASHING </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="d-grid gap-2 my-2">
+                                <input type="text"  name="vname3"  id="vname3" placeholder="Vehicle name"  >
+                            </div>
+                            <div class="d-grid gap-2 my-2">
+                                <input type="text"  name="vnumber3"  id="vnumber3" placeholder="Vehicle Number"  >
+                            </div>
+
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Vechile Type</option>
+                                <option value="1">Bullet or Sports bike</option>
+                                <option value="2">truck ten wheels</option>
+                                <option value="3">traveller small</option>
+                                <option value="4">truck six wheels</option>
+                                <option value="5">bike</option>
+                                <option value="6">premium suv or muv</option>
+                                <option value="7">pickup small</option>
+                                <option value="8">compact suv</option>
+                                <option value="9">minibus</option>
+                                <option value="10">truck four wheels</option>
+                                <option value="11">suv or muv</option>
+                                <option value="12">ambulance small</option>
+                                <option value="13">tourist bus</option>
+                                <option value="14">traveller big</option>
+                              </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger">Save </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card my-4 mx-2">
+                <img src="4.jpeg" class="card-img-top" width="200" height="250" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">SANITIZATION SERVICES</h5>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
+                            data-bs-target="#SANITIZATIONModal">SANITIZATION</button>
+                    </div>
+                    <p class="card-text my-2">Effectively eliminates and prevents offensive odors' and allergic
+                        reactions caused by
+                        bacteria and fungi.Mist based Antibacterial/Germ cleaner reaches.Disinfecting kills harmful
+                        bacteria and
+                        viruses from surfaces. Sterilizing kills all microorganisms from surfaces.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SANITIZATION Modal -->
+    <div class="modal fade" id="SANITIZATIONModal" tabindex="-1" aria-labelledby="SANITIZATIONModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SANITIZATIONModalLabel">SANITIZATION </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-grid gap-2 my-2">
+                        <input type="text"  name="vname4"  id="vname4" placeholder="Vehicle name"  >
+                    </div>
+                    <div class="d-grid gap-2 my-2">
+                        <input type="text"  name="vnumber4"  id="vnumber4" placeholder="Vehicle NuNumber"  >
+                    </div>
+
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Vechile Type</option>
+                        <option value="1">Bullet or Sports bike</option>
+                        <option value="2">truck ten wheels</option>
+                        <option value="3">traveller small</option>
+                        <option value="4">truck six wheels</option>
+                        <option value="5">bike</option>
+                        <option value="6">premium suv or muv</option>
+                        <option value="7">pickup small</option>
+                        <option value="8">compact suv</option>
+                        <option value="9">minibus</option>
+                        <option value="10">truck four wheels</option>
+                        <option value="11">suv or muv</option>
+                        <option value="12">ambulance small</option>
+                        <option value="13">tourist bus</option>
+                        <option value="14">traveller big</option>
+                      </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning">Save </button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <footer class="bg-dark text-center text-white ">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"
+                        aria-hidden="true"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"
+                        aria-hidden="true"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"
+                        aria-hidden="true"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"
+                        aria-hidden="true"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"
+                        aria-hidden="true"></i></a>
+
+
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <div class="container">
+            <p class="float-end" style="background-color: rgba(0, 0, 0, 0.2)"><a href="#">Back to top</a></p>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="1.html">Carwash.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
